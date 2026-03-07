@@ -1,4 +1,4 @@
-\# BlueDragonyte Security Labs
+# BlueDragonyte Security Labs
 
 
 
@@ -6,7 +6,7 @@ This repository documents my cybersecurity studies, labs and tools while learnin
 
 
 
-Topics:
+## Topics
 
 
 • Attack taxonomy
