@@ -14,9 +14,9 @@ plaintext = ciphertext ^ key
 Note: In Python ^ is the XOR Operator
 
 References:
-https://accu.org/journals/overload/20/109/lewin_1915/ --> Understanding XOR
-https://byjus.com/maths/convert-hexadecimal-to-binary/ --> Converting Hex to Binary concept
-https://www.geeksforgeeks.org/python/bytes-fromhex-method-python/ --> Converting Hex to Binary Python
+https://accu.org/journals/overload/20/109/lewin_1915/  Understanding XOR
+https://byjus.com/maths/convert-hexadecimal-to-binary/  Converting Hex to Binary concept
+https://www.geeksforgeeks.org/python/bytes-fromhex-method-python/  Converting Hex to Binary Python
 
 ##Steps Taken
 
