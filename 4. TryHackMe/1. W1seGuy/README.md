@@ -24,7 +24,9 @@ https://byjus.com/maths/convert-hexadecimal-to-binary/  Converting Hex to Binary
 https://www.geeksforgeeks.org/python/bytes-fromhex-method-python/  Converting Hex to Binary Python
 
 
-##Steps Taken
+
+
+## Steps Taken
 
 1. Run NetCat on target IP And Port
 2. Grab encrypted text
