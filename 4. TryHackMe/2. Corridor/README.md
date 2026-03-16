@@ -33,7 +33,7 @@ The first step was to identify open services on the target machine.
 ``` bash
 nmap -sV <TARGET_IP>
 ```
-![Image 1](Images/target-machine.png)
+![Image 1](Images/Target-Machine.png)
 
 
 ### Result
