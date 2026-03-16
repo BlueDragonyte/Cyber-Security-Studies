@@ -33,14 +33,14 @@ The first step was to identify open services on the target machine.
 ``` bash
 nmap -sV <TARGET_IP>
 ```
-![Image 1](images/target-machine.png)
+![Image 1](Images/target-machine.png)
 
 
 ### Result
 
 The scan revealed that **port 80 (HTTP)** was open.
 
-![Image 2](images/nmap.png)
+![Image 2](Images/nmap.png)
 
 
 Since a web service was present, the next step was to investigate the
@@ -61,7 +61,7 @@ hexadecimal strings**, which resembled **hash values**.
 
 These appeared to represent **hashed room identifiers**.
 
-![Image 3](images/Curl-Output-1.png)
+![Image 3](Images/Curl-Output-1.png)
 
 ------------------------------------------------------------------------
 
@@ -71,7 +71,7 @@ The hash values were copied into a text file for analysis.
 
 These hashes appeared consistent with **MD5 formatting**.
 
-![Image 4](images/hash-file.png)
+![Image 4](Images/hash-file.png)
 
 ------------------------------------------------------------------------
 
@@ -96,7 +96,7 @@ hashcat -m 0 -a 3 hash-file.txt
 
 The hashes corresponded to **sequential numbers**.
 
-![Image 5](images/hashcat-output.png)
+![Image 5](Images/hashcat-output.png)
 
 This indicated the application was generating URLs like:
 
@@ -115,14 +115,14 @@ However, checking each number outside of the range would be too time consuming.
 Instead, I created a short bash script to automate the curl command for each hash from 0-20 to see each output.
 ... This was very very large output, and could have been done a better way...
 
-![Image 6](images/enum-script.png)
+![Image 6](Images/enum-script.png)
 
 ### Result
 
 the resulting output came out with the flag, although I had to manually search the output.
 
 
-![Image 7](images/Flag-Output.png)
+![Image 7](Images/Flag-Output.png)
 
 ------------------------------------------------------------------------
 
