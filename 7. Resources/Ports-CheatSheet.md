@@ -98,5 +98,3 @@
 | 3389 | RDP brute force |
 | 445 | SMB exploits (e.g. EternalBlue) |
 | 389 | LDAP (unencrypted) |
-
--
