@@ -126,7 +126,7 @@ nmap --script=vuln -sV <IP>
 - UDP scans are slower and less reliable  
 - `-A` is noisy → avoid in stealth scenarios  
 - `-Pn` useful when ICMP is blocked  
-- Always scan **only authorised targets** ⚖️  
+- Always scan **only authorised targets**
 - “Nmap is used for network discovery, port scanning, and service enumeration.”
 - “Different scan types balance stealth vs accuracy.”
 - “NSE scripts extend Nmap for vulnerability detection and enumeration.”
